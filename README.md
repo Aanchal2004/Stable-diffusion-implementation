@@ -23,6 +23,11 @@ The stable diffusion model is a powerful framework for generating high-quality i
 
 9. **model_converter.py**: This script provides utilities for converting models between different formats or frameworks, facilitating interoperability and deployment in various environments.
 
+## Download weights and tokenizer files for complete implementation:
+
+1. Download `vocab.json` and `merges.txt` from https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main/tokenizer and save them in the `data` folder
+2. Download `v1-5-pruned-emaonly.ckpt` from https://huggingface.co/runwayml/stable-diffusion-v1-5/tree/main and save it in the `data` folder
+
 10. **model_loader.py**: The model loader module handles loading pre-trained models and initializing them for inference or fine-tuning. It ensures consistency and reproducibility across different experiments or deployments.
 
 11. **pipeline.py**: The pipeline module orchestrates the entire text-to-image or image-to-image conversion process, from input preprocessing to output generation. It may include functions for data loading, conditioning, sampling, and evaluation.
